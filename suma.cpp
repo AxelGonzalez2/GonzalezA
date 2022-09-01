@@ -1,12 +1,14 @@
-#include <iostream>
+#include<iostream>
 using namespace std;
-int main ()
+int main()
 {
-        cout<<endl<<endl;
-        cout<<"HOLA MUNDO SOY Axel";
-        cout<<endl<<endl;
-        return (0);
-#include <iostream>
-using namespace std;
-int main ()
-{
+	float x,y,z;
+ cout<<"ingrese 2 nunero separado de espacio x y: ";
+	cout<<"ingrese 2 numeros x y:";
+	cin>>x>>y;
+	z=x+y;
+	cout<<z;
+        cout<<"El resultado es:";
+        cout<<z<<endl; 
+	return 0;
+}
